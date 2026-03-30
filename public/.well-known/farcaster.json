@@ -1,0 +1,24 @@
+{
+  "accountAssociation": {
+    "header": "TODO_ADD_SIGNED_HEADER",
+    "payload": "TODO_ADD_SIGNED_PAYLOAD",
+    "signature": "TODO_ADD_SIGNED_SIGNATURE"
+  },
+  "frame": {
+    "version": "1",
+    "name": "counter-global",
+    "iconUrl": "https://counter-global.vercel.app/icon.svg",
+    "homeUrl": "https://counter-global.vercel.app",
+    "imageUrl": "https://counter-global.vercel.app/og.svg",
+    "buttonTitle": "Open Counter",
+    "splashImageUrl": "https://counter-global.vercel.app/splash.svg",
+    "splashBackgroundColor": "#FFFDF8",
+    "webhookUrl": "https://counter-global.vercel.app/api/webhook"
+  },
+  "baseBuilder": {
+    "allowedAddresses": [],
+    "builderCode": "bc_k94r47ma"
+  },
+  "primaryCategory": "utility",
+  "tags": ["counter", "public", "base", "utility"]
+}

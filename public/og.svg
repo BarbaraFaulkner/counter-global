@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none">
+  <rect width="1200" height="630" fill="#FFFDF8"/>
+  <circle cx="150" cy="110" r="120" fill="#FF5E5B" fill-opacity="0.18"/>
+  <circle cx="1040" cy="180" r="150" fill="#18C8FF" fill-opacity="0.18"/>
+  <rect x="80" y="70" width="1040" height="490" rx="48" fill="#FFFFFF" stroke="#1F2430" stroke-opacity="0.08" stroke-width="4"/>
+  <text x="110" y="170" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#5E6678">GLOBAL COUNTER</text>
+  <text x="110" y="390" font-family="Arial, Helvetica, sans-serif" font-size="220" font-weight="800" fill="#1F2430">+1</text>
+  <text x="110" y="470" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="600" fill="#5E6678">Public signal meter on Base</text>
+  <rect x="110" y="500" width="180" height="20" rx="10" fill="#FF5E5B"/>
+  <rect x="310" y="500" width="240" height="20" rx="10" fill="#18C8FF"/>
+  <rect x="570" y="500" width="130" height="20" rx="10" fill="#7C4DFF"/>
+  <rect x="720" y="500" width="160" height="20" rx="10" fill="#FFD93D"/>
+</svg>

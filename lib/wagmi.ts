@@ -1,4 +1,4 @@
-import { createConfig, http } from "wagmi";
+import { cookieStorage, createConfig, createStorage, http } from "wagmi";
 import { injected } from "@wagmi/core";
 import { base } from "wagmi/chains";
 
@@ -8,10 +8,11 @@ const DATA_SUFFIX = "0x62635f6b39347234376d610b008021802180218021802180218021802
 export const wagmiConfig = createConfig({
   chains: [base],
   connectors: [injected()],
+  storage: createStorage({ storage: cookieStorage }),
+  ssr: true,
   transports: {
     [base.id]: http("https://mainnet.base.org"),
   },
-  // ERC-8021 attribution for transactions sent outside Base App as recommended by Base docs.
   dataSuffix: DATA_SUFFIX,
 });
 

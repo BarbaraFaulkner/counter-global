@@ -17,6 +17,21 @@ const bodyFont = IBM_Plex_Sans({
   weight: ["400", "500", "600"],
 });
 
+const frameEmbed = {
+  version: "next",
+  imageUrl: "https://counter-global.vercel.app/og.svg",
+  button: {
+    title: "Open Counter",
+    action: {
+      type: "launch_frame",
+      name: "counter-global",
+      url: "https://counter-global.vercel.app",
+      splashImageUrl: "https://counter-global.vercel.app/splash.svg",
+      splashBackgroundColor: "#FFFDF8",
+    },
+  },
+};
+
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
@@ -28,6 +43,19 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         />
         <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
         <title>counter-global</title>
+        <meta name="description" content="A public global counter on Base where anyone can add one." />
+        <link rel="canonical" href="https://counter-global.vercel.app" />
+        <link rel="manifest" href="/.well-known/farcaster.json" />
+        <meta property="og:title" content="counter-global" />
+        <meta property="og:description" content="A public global counter on Base where anyone can add one." />
+        <meta property="og:image" content="https://counter-global.vercel.app/og.svg" />
+        <meta property="og:url" content="https://counter-global.vercel.app" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="counter-global" />
+        <meta name="twitter:description" content="A public global counter on Base where anyone can add one." />
+        <meta name="twitter:image" content="https://counter-global.vercel.app/og.svg" />
+        <meta name="fc:frame" content={JSON.stringify(frameEmbed)} />
       </head>
       <body className={`${displayFont.variable} ${bodyFont.variable}`}>
         <Providers>
