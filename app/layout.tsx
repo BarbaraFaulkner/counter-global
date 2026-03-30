@@ -20,7 +20,8 @@ const bodyFont = IBM_Plex_Sans({
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
-      <head>        <meta name="base:app_id" content="69c9d08654fba99e37410fd2" />
+      <head>
+        <meta name="base:app_id" content="69c9d08654fba99e37410fd2" />
         <meta
           name="talentapp:project_verification"
           content="c4b064b93c0af5e5b2671898d1940e2a1e12d80f72d8f5459ad3f655e0020c8c04d6a6a511800128a61827e7a6614582230cf5f279ee581665d0ab354e8fd787"
@@ -43,5 +44,3 @@ export default function RootLayout({ children }: { children: ReactNode }) {
     </html>
   );
 }
-
-
