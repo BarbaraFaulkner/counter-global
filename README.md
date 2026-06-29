@@ -63,3 +63,10 @@ Look for common setup indicators such as:
 - `Cargo.toml`
 - `go.mod`
 - `Makefile`
+- Docker-related files
+
+If a package or dependency file is present, use the standard installation command for that ecosystem.
+
+For example, if a `package.json` file is present, review its scripts and dependencies before running commands.
+
+## Usage
