@@ -102,3 +102,8 @@ A typical repository may include:
 
 - Source code
 - Configuration files
+- Documentation
+- Tests
+- Build or distribution files
+
+Refer to the actual files in this repository for the authoritative structure.
