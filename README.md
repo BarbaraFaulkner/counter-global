@@ -107,3 +107,11 @@ A typical repository may include:
 - Build or distribution files
 
 Refer to the actual files in this repository for the authoritative structure.
+
+## Maintenance
+
+Keep this README updated as the project evolves.
+
+Useful additions may include:
+
+- A concise project description
