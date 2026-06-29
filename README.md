@@ -76,3 +76,8 @@ Use the repository contents as the source of truth for available commands and wo
 Recommended steps:
 
 1. Open the project directory.
+2. Review available configuration and documentation files.
+3. Identify the main source files.
+4. Install dependencies if the project defines any.
+5. Run the project using the commands provided by its configuration files.
+6. Run any available tests or checks before making changes.
