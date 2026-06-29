@@ -81,3 +81,11 @@ Recommended steps:
 4. Install dependencies if the project defines any.
 5. Run the project using the commands provided by its configuration files.
 6. Run any available tests or checks before making changes.
+
+## Development Notes
+
+When making changes, keep edits focused and easy to review.
+
+Suggested workflow:
+
+1. Create a new branch for your work.
