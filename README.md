@@ -70,3 +70,9 @@ If a package or dependency file is present, use the standard installation comman
 For example, if a `package.json` file is present, review its scripts and dependencies before running commands.
 
 ## Usage
+
+Use the repository contents as the source of truth for available commands and workflows.
+
+Recommended steps:
+
+1. Open the project directory.
