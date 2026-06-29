@@ -122,3 +122,9 @@ Useful additions may include:
 - Troubleshooting notes
 - Contribution guidelines
 - License information
+
+## Notes
+
+This README intentionally avoids assumptions about the internal implementation of `counter-global`.
+
+If additional project details become available, they should be added here so new users can set up and use the project more easily.
