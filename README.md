@@ -36,3 +36,11 @@ Run the following command in your terminal:
 `git clone https://github.com/BarbaraFaulkner/counter-global.git`
 
 ### 2. Enter the project directory
+
+`cd counter-global`
+
+### 3. Review the project files
+
+After cloning, inspect the repository contents to understand the project structure.
+
+Common files to check include:
