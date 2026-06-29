@@ -44,3 +44,9 @@ Run the following command in your terminal:
 After cloning, inspect the repository contents to understand the project structure.
 
 Common files to check include:
+
+- `README.md`
+- Configuration files
+- Source files
+- Test files, if present
+- Documentation files, if present
