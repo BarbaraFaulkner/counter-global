@@ -18,3 +18,9 @@ The original project description is minimal, so this document focuses on practic
 - Uses the repository URL as the canonical project location.
 
 ## Repository
+
+GitHub repository:
+
+https://github.com/BarbaraFaulkner/counter-global.git
+
+Clone URL:
