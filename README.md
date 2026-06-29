@@ -89,3 +89,9 @@ When making changes, keep edits focused and easy to review.
 Suggested workflow:
 
 1. Create a new branch for your work.
+2. Make a small, clear change.
+3. Test the change using the tools available in the repository.
+4. Commit with a descriptive message.
+5. Push the branch and open a pull request if contributing through GitHub.
+
+## Project Structure
