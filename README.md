@@ -24,3 +24,9 @@ GitHub repository:
 https://github.com/BarbaraFaulkner/counter-global.git
 
 Clone URL:
+
+`https://github.com/BarbaraFaulkner/counter-global.git`
+
+## Getting Started
+
+### 1. Clone the repository
