@@ -30,3 +30,9 @@ Clone URL:
 ## Getting Started
 
 ### 1. Clone the repository
+
+Run the following command in your terminal:
+
+`git clone https://github.com/BarbaraFaulkner/counter-global.git`
+
+### 2. Enter the project directory
