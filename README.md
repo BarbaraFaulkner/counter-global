@@ -56,3 +56,10 @@ Common files to check include:
 Because the original README does not specify a framework, runtime, or package manager, setup depends on the files included in the repository.
 
 Look for common setup indicators such as:
+
+- `package.json`
+- `requirements.txt`
+- `pyproject.toml`
+- `Cargo.toml`
+- `go.mod`
+- `Makefile`
