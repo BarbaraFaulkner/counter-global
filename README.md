@@ -115,3 +115,10 @@ Keep this README updated as the project evolves.
 Useful additions may include:
 
 - A concise project description
+- Installation requirements
+- Supported environments
+- Common commands
+- Examples
+- Troubleshooting notes
+- Contribution guidelines
+- License information
