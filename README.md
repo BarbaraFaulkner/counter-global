@@ -95,3 +95,10 @@ Suggested workflow:
 5. Push the branch and open a pull request if contributing through GitHub.
 
 ## Project Structure
+
+The exact project structure may vary.
+
+A typical repository may include:
+
+- Source code
+- Configuration files
